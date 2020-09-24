@@ -2,9 +2,9 @@
 
 This is a sample project to demonstrate an issue with the package [RiverPod](https://pub.dev/packages/riverpod).
 
-Using RiverPod v. 0.11.0, a ScopedProvider causes an exception in this scenario:
-- We have two routes, the origin with an AutoDisposeProviderFamily and the destination with a ScopedProvider
-- the ScopedProvider references the AutoDisposeProviderFamily
+Using RiverPod v. 0.11.0, a `ScopedProvider` causes an exception in this scenario:
+- We have two routes, the origin with an `AutoDisposeProviderFamily` and the destination with a `ScopedProvider`
+- the `ScopedProvider` references the `AutoDisposeProviderFamily`
 - the user pops the destination to get back
 
 # Usage
